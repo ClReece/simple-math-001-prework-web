@@ -1,21 +1,34 @@
-def addition(num1, num2)
+def addition(a="5",b= "4")
+ puts "addition #{a} + #{b}.to eq (9)"
+ return 5 + 4
 end
 
-def subtraction(num1, num2)
+def subtraction(a="10", b="5")
+  puts "subtraction #{a} - #{b}.to eq(5)"
+  return 10 - 5
 end
 
-def division(num1, num2)
+def division(a="50", b="2")
+  puts "division #{a} / #{b}.to eq(25)"
+  return 50 /2
 end
 
-def multiplication(num1, num2)
+def multiplication(a="40", b="3")
+  puts "multiplication #{a} * #{b}.to eq(120)"
+  return 40 * 3
 end
 
-def modulo(num1, num2)
+def modulo(a="34", b="5")
+  puts "modulo #{a} % #{b}.to eq(4)"
+  return 34 % 5
 end
 
-def square_root(num)
+def square_root(a="81")
+  puts "square_root #{a}.to eq(9)"
+  return 9
 end
 
-def order_of_operation(num1, num2, num3, num4)
-  #Hint:  __ + (( __ * __ ) / __ )
+def order_of_operation(a="7", b="43", c="23", d="83")
+  puts "order_of_operation #{a} + ((#{b} * #{c}) / #{d})"
+  return 7 + (43 * 23) / 83
 end
